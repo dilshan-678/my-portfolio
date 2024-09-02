@@ -1,7 +1,7 @@
 
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #535da1;
+  --primary-color: #000000;
   --secondary-color:              #14B789;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
@@ -107,6 +107,7 @@ a {
 
 a:hover {
   color: var(--secondary-color);
+
 }
 
 ::selection {
@@ -492,8 +493,8 @@ strong {
   position: absolute;
   z-index: 22;
   top: 0;
-  width: 100%;
-  min-width: 550px;
+  width: 40%;
+  min-width: 400px;
   border-radius: 950px;
 }
 
@@ -944,7 +945,7 @@ strong {
   }
 
   .hero-image {
-    min-width: 650px;
+    min-width: 400px;
   }
   
   .hero-title,
