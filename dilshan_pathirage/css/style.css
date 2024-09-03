@@ -826,7 +826,7 @@ strong {
   background: var(--secondary-color);
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: #ffffff;
   font-weight: var(--font-weight-bold);
   transition: all 0.3s;
   margin-bottom: 0;
@@ -1156,4 +1156,17 @@ strong {
     border-radius: 20px 0 0 20px;
     font-size: 14px;
     line-height: 20px;
+}
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  display: block;
+}
+
+.success-message {
+  color: #19ee00;
+  font-size: 1em;
+  margin-top: 5px;
+  display: block;
 }
